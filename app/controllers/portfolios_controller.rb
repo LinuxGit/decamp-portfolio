@@ -1,5 +1,5 @@
 class PortfoliosController < ApplicationController
-  before_action :set_portfolio, only: [:show, :edit, :update, :destroy]
+  before_action :set_portfolio_item, only: [:show, :edit, :update, :destroy]
   layout "portfolio"
   
   def index
@@ -40,7 +40,8 @@ class PortfoliosController < ApplicationController
     end    
   end
   
-  def show   
+  def show
+    #binding.pry
   end
   
   def destroy
@@ -52,7 +53,7 @@ class PortfoliosController < ApplicationController
   
   private
   
-    def set_portfolio
+    def set_portfolio_item
       @portfolio_item = Portfolio.find(params[:id])
     end
     
