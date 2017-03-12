@@ -44,7 +44,7 @@ gem 'devise', '~> 4.2'
 # front end framework
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
-gem 'devcamp_view_tool', git: 'https://github.com/LinuxGit/devcamp_view_tool'
+gem 'devcamp_view_tool', '~> 0.1.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
