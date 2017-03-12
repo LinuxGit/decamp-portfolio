@@ -41,9 +41,13 @@ gem 'friendly_id', '~> 5.1.0'
 # Authentication
 gem 'devise', '~> 4.2'
 
+# Authorization
+gem 'petergate', '~> 1.7'
+
 # front end framework
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
+# copyright
 gem 'devcamp_view_tool', '~> 0.1.0'
 
 group :development, :test do
