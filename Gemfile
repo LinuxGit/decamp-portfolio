@@ -47,6 +47,12 @@ gem 'petergate', '~> 1.7'
 # front end framework
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
+# font icon
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
+
+# pagination
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
+
 # copyright
 gem 'devcamp_view_tool', '~> 0.1.0'
 
